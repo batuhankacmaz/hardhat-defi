@@ -22,13 +22,13 @@ export const networkConfig: networkConfigInfo = {
     },
     // Price Feed Address, values can be obtained at https://docs.chain.link/docs/reference-contracts
     // Default one is ETH/USD contract on Kovan
-    4: {
-        name: "rinkeby",
+    42: {
+        name: "kovan",
         ethUsdPriceFeed: "0x9326BFA02ADD2366b30bacB125260Af641031331",
-        wethToken: "0xc778417E063141139Fce010982780140Aa0cD5Ab",
+        wethToken: "0xd0a1e359811322d97991e03f863a0c30c2cf029c",
         lendingPoolAddressesProvider: "0x88757f2f99175387aB4C6a4b3067c77A695b0349",
-        daiEthPriceFeed: "0x74825DbC8BF76CC4e9494d0ecB210f676Efa001D",
-        daiToken: "0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa",
+        daiEthPriceFeed: "0x22B58f1EbEDfCA50feF632bD73368b2FdA96D541",
+        daiToken: "0xFf795577d9AC8bD7D90Ee22b6C1703490b6512FD",
     },
 }
 
